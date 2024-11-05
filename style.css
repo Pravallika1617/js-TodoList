@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+.todo-container {
+    background-image: url("./todolist.avif");
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.heading {
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.task-heading {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+}
+
+.user-input {
+    width: 50%;
+    padding: 8px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: blueviolet;
+}
+
+.button {
+    color: white;
+    background-color: blueviolet;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100px;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 2px solid blueviolet;
+    margin-left: -4px;
+}
+
+.button:hover {
+    background: rgb(157, 103, 207);
+}
+
+.items-heading {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.items-container {
+    margin-left: 70px;
+    margin-right: 70px;
+    padding: 20px;
+    box-shadow: 10px 10px 50px blueviolet;
+}
+
+.todo-item-container {
+    padding: 10px;
+}
+
+.checkbox-input {
+    width: 18px;
+    cursor: pointer;
+}
+
+.label-container {
+    margin-left: 20px;
+    background-color: rgb(157, 103, 207);
+    width: 100%;
+    padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 20px;
+    justify-content: space-between;
+    color: #fff;
+    border-left: 6px solid blueviolet;
+    border-radius: 10px;
+    border-right: 6px solid blueviolet;
+}
+
+.delete-container:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.strike {
+    text-decoration: line-through;
+    color: #000;
+}
+
+
+@media (max-width:450px) {
+    .label-container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
